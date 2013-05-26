@@ -1,0 +1,33 @@
+
+Version 2.4.9 [2013/04/08]
+- NEW: Added additional status codes.
+- FIX: Fixed JSON recursive array parsing.
+- NEW: Added RTProperties optional property setting feature (ie. "key?=value")
+- NEW: Added additional fields to reporting EventDataLayout.
+
+Version 2.4.8 [2013/03/01]
+- NEW: Added additional status codes.
+- NEW: Ignore old events when processing event Geozone detection.
+- NEW: Added check for excessive past events during event processing.
+- NEW: Added support for report header column group titles.
+- NEW: Update event "inputMask" from device lastInputState if unset by DCS.
+- CHG: Support multiple specified accounts when deleting old events.
+- DCS: gtsdmtp] added estimated odometer calculations.
+- FIX: Fixed "DCServerFactory.java" command "Type" tag parsing. [B28]
+
+-----------------------------------------------------------------------------------
+
+Project Home Page:
+    http://www.opengts.org
+
+Download Latest Version from SourceForge:
+    https://sourceforge.net/projects/opengts/
+
+Documentation (installation/configuration, tutorials, FAQ):
+    http://www.opengts.org/FAQ.html
+    http://www.opengts.org/documentation.html
+
+GTS Enterprise:
+    http://www.geotelematic.com/gts.html
+    http://www.geotelematic.com/documentation.html
+
